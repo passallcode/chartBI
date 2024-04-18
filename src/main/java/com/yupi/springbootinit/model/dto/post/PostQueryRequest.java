@@ -1,6 +1,7 @@
 package com.yupi.springbootinit.model.dto.post;
 
 import com.yupi.springbootinit.common.PageRequest;
+
 import java.io.Serializable;
 import java.util.List;
 import lombok.Data;

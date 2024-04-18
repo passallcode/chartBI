@@ -2,6 +2,7 @@ package com.yupi.springbootinit.controller;
 
 import cn.hutool.json.JSONUtil;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.yupi.springbootinit.service.UserService;
 import com.yupi.springbootinit.annotation.AuthCheck;
 import com.yupi.springbootinit.common.BaseResponse;
 import com.yupi.springbootinit.common.DeleteRequest;
@@ -18,7 +19,7 @@ import com.yupi.springbootinit.model.entity.Post;
 import com.yupi.springbootinit.model.entity.User;
 import com.yupi.springbootinit.model.vo.PostVO;
 import com.yupi.springbootinit.service.PostService;
-import com.yupi.springbootinit.service.UserService;
+
 import java.util.List;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;

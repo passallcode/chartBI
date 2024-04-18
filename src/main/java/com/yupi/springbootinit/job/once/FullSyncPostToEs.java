@@ -4,6 +4,7 @@ import com.yupi.springbootinit.esdao.PostEsDao;
 import com.yupi.springbootinit.model.dto.post.PostEsDTO;
 import com.yupi.springbootinit.model.entity.Post;
 import com.yupi.springbootinit.service.PostService;
+
 import java.util.List;
 import java.util.stream.Collectors;
 import javax.annotation.Resource;
