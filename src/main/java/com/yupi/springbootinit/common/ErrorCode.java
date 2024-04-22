@@ -16,7 +16,8 @@ public enum ErrorCode {
     TOO_MANY_REQUEST(40900, "请求过于频繁"),
     FORBIDDEN_ERROR(40300, "禁止访问"),
     SYSTEM_ERROR(50000, "系统内部异常"),
-    OPERATION_ERROR(50001, "操作失败");
+    OPERATION_ERROR(50001, "操作失败"),
+    QUEUE_IS_FULL_ERROR(50002,"队列已满");
 
     /**
      * 状态码
