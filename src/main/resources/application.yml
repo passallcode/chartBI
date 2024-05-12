@@ -23,7 +23,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/chart_bi
     username: root
-    password: root
+    password: xx
   # Redis 配置
   # todo 需替换配置，然后取消注释
   redis:
@@ -31,7 +31,21 @@ spring:
     host: 127.0.0.1
     port: 6379
     timeout: 5000
-    password: redis123
+    password: xx
+#    rabbitMQ配置
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: xx
+
+  # 讯飞AI配置
+xunfei:
+  client:
+    appid: xx
+    apiSecret: xx
+    apiKey: xx
+
   # Elasticsearch 配置
   # todo 需替换配置，然后取消注释
 #  elasticsearch:
@@ -103,7 +117,12 @@ knife4j:
           - com.yupi.springbootinit.controller
 
 #鱼聪明AI配置
-yuapi:
-  client:
-    access-key: ars5ta2be09qk3134fvb9xo9da0jaxme
-    secret-key: kdeti9i20lr42t7p0btvow08nyolepoa
+#yuapi:
+#  client:
+#    access-key:
+#    secret-key:
+
+
+
+
+
